@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav">
+        <div class="logo">
+          <img src="logo.png" width="80px" />
+        </div>
+        <div class="info">
+          <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="Services">Services</a></li>
+            <li><a href="Contact Us">Contact Us</a></li>
+            <li><a href="About US">About US</a></li>
+          </ul>
+        </div>
+        <div class="user">
+          <span>__Saksham</span>
+          <button>Logout</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="main">
+      <div class="left">
+        <div class="upper-left">
+          <div>
+            <h3>Added Items</h3>
+            <div class="total">
+              Total :
+              <p class="amount">0</p>
+            </div>
+            <table>
+              <tr>
+                <th>Sr.No</th>
+                <th>Service Name</th>
+                <th>Price</th>
+              </tr>
+            </table>
+          </div>
+          
+        </div>
+        <div class="lower-left">
+          <h3>Book Now</h3>
+          <form>
+            <p>Full Name<input type="text" /></p>
+            <p>Email Id<input type="email" /></p>
+            <p>Phone Number<input type="number" /></p>
+            <span><button class="bookButton">Book Now</button></span>
+          </form>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="top">
+          <h2>Browse Our Services</h2>
+          <p>Click on the add items to add it in your cart</p>
+        </div>
+
+        <div class="pic">
+          <img src="logo.png" />
+          <h3 class="name">Washing</h3>
+          <span class="cost">300</span>
+        </div>
+        <div class="pic">
+          <img src="download (1).jfif" />
+          <h3 class="name">Cleaning</h3>
+          <span class="cost">200</span>
+        </div>
+        <div class="pic">
+          <img src="download.jfif" />
+          <h3 class="name">Drying</h3>
+          <span class="cost">100</span>
+        </div>
+
+        <div class="rightButton">
+          <button id="skip">Skip Item</button>
+          <button id="add">Add Item</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
